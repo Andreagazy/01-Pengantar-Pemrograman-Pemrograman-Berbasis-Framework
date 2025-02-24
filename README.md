@@ -100,11 +100,11 @@ pada sesi praktikum ini!
 
 - Pembuatan Folder
 
-![x](assetSementara/PP2-1.png)
+![x](asset/PP2-1.png)
 
 - Setelah dilakukan `npm run dev`
 
-![x](assetSementara/PP2-2.png)
+![x](asset/PP2-2.png)
 
 
 #### Pertanyaan Praktikum 3
@@ -113,12 +113,31 @@ berhasil Anda lakukan
 
 - Fungsi MyButton 
 
-![x](assetSementara/PP3-1.png)
+![x](asset/PP3-1.png)
 
-- Penggunaan : 
+- Penggunaan Fungsi MyButton 
 
-![x](assetSementara/PP3-2.png)
+![x](asset/PP3-2.png)
 
 - Hasil
 
-![x](assetSementara/PP3-3.png)
+![x](asset/PP3-3.png)
+
+
+### Pertanyaan Praktikum 4
+1. Untuk apakah kegunaan sintaks user.imageUrl?
+user.imageUrl berfungsi untuk memanggil atribut imageUrl dalam objek user yang menyimpan URL gambar pengguna. 
+2. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah 
+berhasil Anda lakukan!
+
+- Fungsi Profile & Variabel User
+
+![x](asset/PP4-1.png)
+
+- Penggunaan Fungsi Profile
+
+![x](asset/PP4-2.png)
+
+- Hasil 
+
+![x](asset/PP4-3.png)

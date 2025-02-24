@@ -11,6 +11,28 @@ function MyButton() {
     </a>
   );
 }
+
+function Profile() {
+  return (
+    <>
+      <div className="text-xs">Developed By: {user.name}</div>
+      <img
+        className="rounded full"
+        src={user.imageUrl}
+        alt={"Foto " + user.name}
+        style={{ width: user.imageSize, height: user.imageSize }}
+      />
+    </>
+  );
+}
+
+const user = {
+  name: "Andreagazy Iza Amerianto",
+  imageUrl: "https://scontent-cgk2-1.xx.fbcdn.net/v/t39.30808-6/472129528_4101183596770229_986043920080069350_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFBa75Kk4-S68MkETZ2QYmE0S5Fb9Oe2dvRLkVv057Z206kyanuHViQ4-Bo7h2Em9qz-bCcwhZvyy0S4iga2lEl&_nc_ohc=cDmUvo2W5qsQ7kNvgHDM2ud&_nc_zt=23&_nc_ht=scontent-cgk2-1.xx&_nc_gid=A_nY_x8Tfkrc4q1GdVqKjCF&oh=00_AYDddwRZKs8VBwXICEsynZEx4vam0KlugfB27yq-H-hZBQ&oe=67C1DDEF",
+  imageSize: 90,
+};
+
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -59,6 +81,7 @@ export default function Home() {
           </a>
           <MyButton />
         </div>
+        <Profile />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
