@@ -55,8 +55,53 @@ pada sesi praktikum ini!
 2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut telah berhasil terinstall di perangkat Anda!
 
 - Instalasi Git
+
 ![x](asset/PP1-1.png)
+
 - Instalasi VSCode
+
 ![x](asset/PP1-2.png)
+
 - Instalasi NodeJS
+
 ![x](asset/PP1-3.png)
+
+
+#### Pertanyaan Praktikum 2
+
+#### Pertanyaan Praktikum 2
+1. Pada Langkah ke-2, setelah membuat proyek baru menggunakan Next.js, terdapat beberapa istilah yang muncul. Jelaskan istilah tersebut, **TypeScript, ESLint, Tailwind CSS, Import alias, App Router**, dan **Turbopack**!
+
+- TypeScript adalah perluasan sintaks JavaScript yang menambahkan keamanan tipe dan fitur lainnya ke dalam JavaScript. File TypeScript memiliki ekstensi .ts atau .tsx
+- ESLint adalah tools yang menganalisis kode dan mengidentifikasi kemungkinan masalah dan kesalahan dalam program.
+- Tailwind CSS adalah framework CSS yang memudahkan pengembang membuat komponen CSS dengan class yang sudah terdapat pada framework tanpa harus menulis banyak CSS manual 
+- Import Alias adalah fitur untuk mempersingkat path impor file
+- App Router adalah sistem routing baru di Next.js 13+ yang berbasis direktori app/.
+- Turbopack adalah  Bundler Next.js berbasis Rust yang menggantikan Webpack untuk build lebih cepat
+
+2. Apa saja kegunaan folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3!
+
+- .next: Menyimpan file hasil build Next.js, termasuk cache dan file untuk rendering halaman.
+- node_modules: : Folder ini berisi semua dependensi paket yang diunduh melalui npm atau yarn yang digunakan dalam proyek
+- public : Menyimpan file statis seperti gambar, favicon, dan aset lain yang bisa diakses langsung dari root URL.
+- src : Folder utama yang berisi source code proyek, termasuk komponen, halaman, dan logika aplikasi.
+- .gitignore : Menentukan file atau folder yang harus diabaikan oleh Git.
+- eslint.config.mjs: Konfigurasi ESLint untuk memastikan kode tetap rapi dan sesuai standar.
+- next-env.d.ts: Deklarasi TypeScript untuk proyek Next.js.
+- next.config.ts: Konfigurasi tambahan untuk Next.js seperti optimasi dan pengaturan khusus lainnya.
+- package.json: Berisi informasi proyek dan daftar dependensi yang digunakan.
+- package-lock.json: Mengunci versi dependensi agar instalasi tetap konsisten.
+- postcss.config.mjs: Konfigurasi PostCSS, sering digunakan bersama Tailwind CSS.
+- tailwind.config.ts: Konfigurasi Tailwind CSS untuk menyesuaikan tema dan styling.
+- tsconfig.json: File konfigurasi TypeScript untuk mengatur opsi kompilasi kode.
+- README.md : File untuk dokumentasi proyek.
+
+3. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+
+- Pembuatan Folder
+
+![x](assetSementara/PP1-1.png)
+
+- Setelah dilakukan `npm run dev`
+
+![x](assetSementara/PP1-2.png)
