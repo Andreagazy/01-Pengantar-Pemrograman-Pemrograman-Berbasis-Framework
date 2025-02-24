@@ -100,8 +100,25 @@ pada sesi praktikum ini!
 
 - Pembuatan Folder
 
-![x](assetSementara/PP1-1.png)
+![x](assetSementara/PP2-1.png)
 
 - Setelah dilakukan `npm run dev`
 
-![x](assetSementara/PP1-2.png)
+![x](assetSementara/PP2-2.png)
+
+
+#### Pertanyaan Praktikum 3
+1. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah 
+berhasil Anda lakukan
+
+- Fungsi MyButton 
+
+![x](assetSementara/PP3-1.png)
+
+- Penggunaan : 
+
+![x](assetSementara/PP3-2.png)
+
+- Hasil
+
+![x](assetSementara/PP3-3.png)
