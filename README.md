@@ -55,8 +55,8 @@ pada sesi praktikum ini!
 2. Buktikan dengan screenshoot yang menunjukkan bahwa masing-masing tools tersebut telah berhasil terinstall di perangkat Anda!
 
 - Instalasi Git
-![x](assetSementara/PP1-1.png)
+![x](asset/PP1-1.png)
 - Instalasi VSCode
-![x](assetSementara/PP1-2.png)
+![x](asset/PP1-2.png)
 - Instalasi NodeJS
-![x](assetSementara/PP1-3.png)
+![x](asset/PP1-3.png)
